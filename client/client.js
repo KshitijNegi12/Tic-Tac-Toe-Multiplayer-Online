@@ -36,7 +36,7 @@ const gameStatus = document.getElementsByClassName('gameStatus')[0];
 
 
 connectBtn.addEventListener('click', () => {
-    socket = new WebSocket('ws://vine-wandering-vertebra.glitch.me');
+    socket = new WebSocket('wss://tic-tac-toe-server-aomm.onrender.com');
 
     socket.onopen = function(event) {
         // console.log('connected');
