@@ -1,11 +1,10 @@
 {
   "name": "tic_tac_toe",
   "version": "1.0.0",
-  "description": "",
-  "main": "client.js",
+  "description": "A simple tic_tac_toe websocket server.",
+  "main": "server.js",
   "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
   "keywords": [],

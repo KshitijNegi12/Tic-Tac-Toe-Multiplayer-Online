@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TIC TAC TOE</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Jersey+25&family=Sedan:ital@0;1&display=swap" rel="stylesheet">
+  <link rel="icon" href="../../img/tic-tac-toe.png" type="image/png">
+  <link rel="stylesheet" href="../../public/styles/style.css">
+</head>
+<body>
+  <!-- Starting point -->
+  <div class="first-page">
+    <h1>TIC TAC TOE</h1>
+    <p>Welcome to Tic Tac Toe!!</p>
+    <p>Play with Other Active Players..</p>
+    <button onclick="startGame()">
+      Start Game
+    </button>
+  </div>
+  
+  <!-- Main Page -->
+  <h1 id="head">TIC TAC TOE</h1>
+  <div class="main-page">
+        <!-- Sidebar -->
+        <div class="sidebar">
+          <div class="user-info">
+            <!-- user details goes here -->
+          </div>
+          <div class="game-info">
+            <button id="new-game">New Game</button>
+            <p>Available Games</p>
+            <ul name="currGames" id="currGames" >
+            </ul>
+            <button id="join">Join</button>
+            <p>Selected: <span id="selected">None</span></p>
+          </div>
+        </div>
+        <div class="mainbar">
+          <div class="gameStatus"></div>
+          <div id="board">
+            <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+          </div>
+        </div>
+  </div>
+  <!-- End page -->
+   <div class="end">
+        <div>
+            <p></p>
+            <button class="end-game">End</button>
+        </div>
+   </div>
+  <script src="../../client/client.js" defer></script>
+</body>
+</html>
