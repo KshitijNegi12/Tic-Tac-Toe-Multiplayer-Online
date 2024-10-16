@@ -33,13 +33,14 @@ const selected = document.getElementById('selected');
 const endPage = document.getElementsByClassName('end')[0];
 const endMsg = document.querySelector('.end p');
 const gameStatus = document.getElementsByClassName('gameStatus')[0];
-
+const loadingServer = document.getElementsByClassName('load')[0];
 
 connectBtn.addEventListener('click', () => {
     socket = new WebSocket('wss://tic-tac-toe-server-aomm.onrender.com');
-
+    loadingServer.style.display = 'flex';
     socket.onopen = function(event) {
         // console.log('connected');
+        loadingServer.style.display = 'none';
         connectBtn.disabled = true;
     }
 
