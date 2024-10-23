@@ -18,8 +18,7 @@ You can play the game [here](https://kshitijnegi12.github.io/Tic-Tac-Toe-Multipl
 
 # To Run Locally
 To run this project locally, you need:
-- Node.js (v14 or above)
-- npm (Node Package Manager)
+- browser to open the html file.
 
 ### Installation
 1. Clone Repo:
@@ -30,10 +29,6 @@ To run this project locally, you need:
     ```
     cd Tic-Tac-Toe-Multiplayer-Online
     ```
-3. Install the dependencies:
-    ```
-    npm install
-    ```
-4. Run the html in browser using Live Server or Copy path.
+3. Run the html in browser using Live Server or Copy path.
 
 The server is running on render, and all the responses of the requests come from there.
